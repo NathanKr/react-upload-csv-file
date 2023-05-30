@@ -24,7 +24,7 @@ function App() {
       >
         <input ref={fileRef} type="file" accept=".csv" />
         <br />
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Upload" />
       </form>
       <h3>lines</h3>
       <output>{linesElem}</output>
